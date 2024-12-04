@@ -1,0 +1,45 @@
+Tag,Meaning,Match (XSD Element),Similarity (%)
+Package,"Similar to Enginerring Package, but in this case the identificator is more specific",Package,100.0
+Application,"Application that will have the circuit (Space related, defense, commercial,...each of them has their own way to specify)",application,90.91
+Comment,To add any comment,comment,85.71
+Tol,Tolerance of the electronic component Value,Tool,85.71
+Weight,weight of the component,weight,83.33
+Value,Electronic value of the component and its unit,value,80.0
+Moisture sensitivity level,"There are predefined classes (None, 1, 2 3 ...)",moistureSensitivity,75.56
+Component Number,ID used by the manufacturer,Component,72.0
+Generic Part Type,"In case the component is Generic, the type of the component",GeneralType,71.43
+Sim File,"In case that it has been used in a Simulation, we can add here the simulation File we have used",Simple,71.43
+Commercial Part Number,ID used by the manufacturer but more specific,internalPartNumber,70.0
+Detail specification,Identificator that specifies the component,Certification,66.67
+ESD Sensitivity,"There are predefined classes (Class 0A, ...)",moistureSensitivity,64.71
+Generic specification,Identificator that specifies the component,Certification,64.71
+Library Ref,Name of the Library to be used to add Schematic information of the component,FirmwareKeyRef,64.0
+Engineering Package,"Type of the package (physical way to package the component, it is represented as an id)  that has the component",engineeringPositiveTolerance,59.57
+Quality Status,Specific Quality Status that are predefined (NONE; ESCC QPL; QPL-39014;...),platingStatus,59.26
+"Description,Description",General description of the electronic component,description,58.82
+Link files,Location of the attached documents in case that there are extra documents to send,Line,57.14
+Manufacturer,Name of the Manufacturer of the component,structure,57.14
+Sim Model Name,"In case that it has been used in a Simulation, we can add here the model we have used",modelRef,54.55
+Sim Kind,"In case that it has been used in a Simulation, we can add here the Kind we have used",Diamond,53.33
+Assembly qual status,We can add here the quality status of the assembly of the component,AssemblyDrawing,51.43
+Volt,Maximum voltage the electronic can handle,cost,50.0
+Footprint2,"In case that the electronic component has more than one footprint, we add here",constraintType,50.0
+Footprint1,Type of the Footprint that has been used in the circuit for this electronic component,constraintType,50.0
+Footprint3,"In case that the electronic component has more than one footprint, we add here",constraintType,50.0
+Sim Port Map,"In case that it has been used in a Simulation, we can add here the Port Map we have used",Port,50.0
+Code Old Senet,Old code used as id in the engineering department Senet Company,Content,47.62
+Quality Level,Specific Quality levels that are predefined (NONE; ESCC; ESCC C; ....),quantity,47.62
+Code generic,Determines if the component is a generi one or a specific (Yes/No),ChangeRec,47.62
+Sim Netlist,"In case that it has been used in a Simulation, we can add here the Netlist we have used",Simple,47.06
+Code Old COM,Old code used as id in the engineering department COM Company,Model,47.06
+Code Old SEM,Old code used as id in the engineering department SEM Company,Model,47.06
+Sim Spice Prefix,"In case that it has been used in a Simulation, we can add here the Prefix we have used",SilkScreen,46.15
+"EPPL Family, Family","Electronic Component's Family (Resistors, Capacitors, Diodes,...)",availability,45.16
+Sim SubKind,"In case that it has been used in a Simulation, we can add here the SubKind we have used",Diamond,44.44
+"EPPL Group,Subfamily",Type of material of the component,Profile,44.44
+"Quality type,Quality","Electronic components have different quality types depending on the final application of the project (commercial flights, defense,...)",polarityType,43.75
+Code Eng COM,Code used as id in the engineering department of COM Company,Content,42.11
+TCR,Temperature Coefficient of Resistance,ColorRef,36.36
+"SPN,EIN","Sener Part Number ,  Enterprise Item Number",PhyNet,30.77
+PPL EBOM,Preferred Part for EBOM (Engineering Bill Of Materials),PolyBegin,23.53
+PPL MBOM,Preferred Part for MBOM (Manufacturing Bill Of Materials),PolyBegin,23.53

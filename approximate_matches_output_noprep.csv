@@ -1,0 +1,45 @@
+Tag,Meaning,Best Match (XSD Element),Similarity (%)
+"EPPL Family, Family","Electronic Component's Family (Resistors, Capacitors, Diodes,...)",No Close Match,0
+"EPPL Group,Subfamily",Type of material of the component,No Close Match,0
+"Quality type,Quality","Electronic components have different quality types depending on the final application of the project (commercial flights, defense,...)",No Close Match,0
+"Description,Description",General description of the electronic component,No Close Match,0
+"SPN,EIN","Sener Part Number ,  Enterprise Item Number",No Close Match,0
+Code Eng COM,Code used as id in the engineering department of COM Company,No Close Match,0
+Code Old COM,Old code used as id in the engineering department COM Company,No Close Match,0
+Code Old SEM,Old code used as id in the engineering department SEM Company,No Close Match,0
+Code Old Senet,Old code used as id in the engineering department Senet Company,No Close Match,0
+Code generic,Determines if the component is a generi one or a specific (Yes/No),No Close Match,0
+Component Number,ID used by the manufacturer,No Close Match,0
+Commercial Part Number,ID used by the manufacturer but more specific,No Close Match,0
+Generic Part Type,"In case the component is Generic, the type of the component",No Close Match,0
+Engineering Package,"Type of the package (physical way to package the component, it is represented as an id)  that has the component",No Close Match,0
+Package,"Similar to Enginerring Package, but in this case the identificator is more specific",No Close Match,0
+Generic specification,Identificator that specifies the component,No Close Match,0
+Detail specification,Identificator that specifies the component,No Close Match,0
+Quality Level,Specific Quality levels that are predefined (NONE; ESCC; ESCC C; ....),No Close Match,0
+Quality Status,Specific Quality Status that are predefined (NONE; ESCC QPL; QPL-39014;...),No Close Match,0
+ESD Sensitivity,"There are predefined classes (Class 0A, ...)",No Close Match,0
+Moisture sensitivity level,"There are predefined classes (None, 1, 2 3 ...)",No Close Match,0
+Comment,To add any comment,No Close Match,0
+Weight,weight of the component,No Close Match,0
+Manufacturer,Name of the Manufacturer of the component,No Close Match,0
+PPL EBOM,Preferred Part for EBOM (Engineering Bill Of Materials),No Close Match,0
+PPL MBOM,Preferred Part for MBOM (Manufacturing Bill Of Materials),No Close Match,0
+Link files,Location of the attached documents in case that there are extra documents to send,No Close Match,0
+Library Ref,Name of the Library to be used to add Schematic information of the component,No Close Match,0
+Sim Model Name,"In case that it has been used in a Simulation, we can add here the model we have used",No Close Match,0
+Sim File,"In case that it has been used in a Simulation, we can add here the simulation File we have used",No Close Match,0
+Sim Kind,"In case that it has been used in a Simulation, we can add here the Kind we have used",No Close Match,0
+Sim SubKind,"In case that it has been used in a Simulation, we can add here the SubKind we have used",No Close Match,0
+Sim Netlist,"In case that it has been used in a Simulation, we can add here the Netlist we have used",No Close Match,0
+Sim Spice Prefix,"In case that it has been used in a Simulation, we can add here the Prefix we have used",No Close Match,0
+Sim Port Map,"In case that it has been used in a Simulation, we can add here the Port Map we have used",No Close Match,0
+Assembly qual status,We can add here the quality status of the assembly of the component,No Close Match,0
+Value,Electronic value of the component and its unit,No Close Match,0
+Tol,Tolerance of the electronic component Value,No Close Match,0
+TCR,Temperature Coefficient of Resistance,No Close Match,0
+Volt,Maximum voltage the electronic can handle,No Close Match,0
+Footprint1,Type of the Footprint that has been used in the circuit for this electronic component,No Close Match,0
+Footprint2,"In case that the electronic component has more than one footprint, we add here",No Close Match,0
+Footprint3,"In case that the electronic component has more than one footprint, we add here",No Close Match,0
+Application,"Application that will have the circuit (Space related, defense, commercial,...each of them has their own way to specify)",No Close Match,0
